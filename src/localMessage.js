@@ -36,7 +36,7 @@ export const message = {
   fields: {
     eventNameDimension: [
       {
-        id: "qt_1mzknl98dc",
+        id: "qt_qgoy5tc9dc",
         name: "Event Label",
         type: "TEXT",
         concept: "DIMENSION",
@@ -44,7 +44,7 @@ export const message = {
     ],
     eventOrderDimension: [
       {
-        id: "qt_kio7hl98dc",
+        id: "qt_139y0tc9dc",
         name: "Event Action",
         type: "TEXT",
         concept: "DIMENSION",
@@ -52,7 +52,7 @@ export const message = {
     ],
     eventMetric: [
       {
-        id: "qt_jj70uk98dc",
+        id: "qt_cmmaxtc9dc",
         name: "Unique Events",
         type: "NUMBER",
         concept: "METRIC",
@@ -61,7 +61,7 @@ export const message = {
   },
   style: {
     eventOrder: {
-      value: "step1, step2, step3...",
+      value: "Step1, Step2, Step3",
       defaultValue: "step1, step2, step3...",
     },
     barColor: {

@@ -1,19 +1,19 @@
 {
-  "name": "My Visualizations",
-  "organization": "MyOrg",
-  "description": "My first visualization package.",
-  "logoUrl": "https://logo",
-  "organizationUrl": "https://url",
-  "supportUrl": "https://url",
+  "name": "Google Analytics Conversion Funnel",
+  "organization": "SlideRuleTech",
+  "description": "Turn any set of Google Analytics events into a conversion funnel.",
+  "logoUrl": "https://slideruletech.com/images/srt-logo-diagonal.jpg",
+  "organizationUrl": "https://slideruletech.com/",
+  "supportUrl": "https://slideruletech.com/contact/",
   "privacyPolicyUrl": "https://url",
   "termsOfServiceUrl": "https://url",
   "packageUrl": "https://url",
   "devMode": "DEVMODE_BOOL",
   "components": [
     {
-      "name": "myViz",
-      "description": "My first Community Visualization",
-      "iconUrl": "https://url",
+      "name": "Conversion Funnel",
+      "description": "Turn any set of Google Analytics events into a conversion funnel.",
+      "iconUrl": "https://slideruletech.com/images/srt-logo-diagonal.jpg",
       "resource": {
         "js": "YOUR_GCS_BUCKET/index.js",
         "config": "YOUR_GCS_BUCKET/index.json",

@@ -1,23 +1,23 @@
 {
-  "name": "My Visualizations",
-  "organization": "MyOrg",
-  "description": "My first visualization package.",
-  "logoUrl": "https://logo",
-  "organizationUrl": "https://url",
-  "supportUrl": "https://url",
+  "name": "Google Analytics Conversion Funnel",
+  "organization": "SlideRuleTech",
+  "description": "Turn any set of Google Analytics events into a conversion funnel.",
+  "logoUrl": "https://slideruletech.com/images/srt-logo-diagonal.jpg",
+  "organizationUrl": "https://slideruletech.com/",
+  "supportUrl": "https://slideruletech.com/contact/",
   "privacyPolicyUrl": "https://url",
   "termsOfServiceUrl": "https://url",
   "packageUrl": "https://url",
-  "devMode": true,
+  "devMode": false,
   "components": [
     {
-      "name": "myViz",
-      "description": "My first Community Visualization",
-      "iconUrl": "https://url",
+      "name": "Conversion Funnel",
+      "description": "Turn any set of Google Analytics events into a conversion funnel.",
+      "iconUrl": "https://slideruletech.com/images/srt-logo-diagonal.jpg",
       "resource": {
-        "js": "gs://datastudio-connectors/tutorial2/dev/index.js",
-        "config": "gs://datastudio-connectors/tutorial2/dev/index.json",
-        "css": "gs://datastudio-connectors/tutorial2/dev/index.css"
+        "js": "gs://datastudio-connectors/tutorial2/prod/index.js",
+        "config": "gs://datastudio-connectors/tutorial2/prod/index.json",
+        "css": "gs://datastudio-connectors/tutorial2/prod/index.css"
       }
     }
   ]
