@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "id": "events",
+      "label": "Events",
+      "elements": [
+        {
+          "id": "eventNameDimension",
+          "label": "Event Name Dimension",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "eventOrderDimension",
+          "label": "Event Order Dimension",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "eventMetric",
+          "label": "Event Metric",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "funnelConfig",
+      "label": "Funnel Configuration",
+      "elements": [
+        {
+          "id": "eventOrder",
+          "label": "Event Order (list with comma between each event)",
+          "type": "TEXTAREA",
+          "defaultValue": "step1, step2, step3..."
+        }
+      ]
+    },
+    {
+      "id": "barStyling",
+      "label": "Bar Styles",
+      "elements": [
+        {
+          "id": "barColor",
+          "label": "Bar Color",
+          "type": "FILL_COLOR",
+          "defaultValue": {
+            "color": "#1E555C"
+          }
+        }
+      ]
+    }
+  ]
+}
