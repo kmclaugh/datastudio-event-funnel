@@ -61,7 +61,7 @@ export const message = {
   },
   style: {
     eventOrder: {
-      value: "Step1, Step2, Step3",
+      value: "Step 1, Step 2, Step 3, Step 4, Step 5, Step 6",
       defaultValue: "step1, step2, step3...",
     },
     barColor: {
