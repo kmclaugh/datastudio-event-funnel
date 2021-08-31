@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "id": "events",
+      "label": "Events",
+      "elements": [
+        {
+          "id": "eventMetrics",
+          "label": "Metrics",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 10
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "funnelConfig",
+      "label": "Funnel Configuration",
+      "elements": [
+        {
+          "id": "eventOrder",
+          "label": "Event Order (list with comma between each event)",
+          "type": "TEXTAREA",
+          "defaultValue": "step1, step2, step3..."
+        }
+      ]
+    },
+    {
+      "id": "barStyling",
+      "label": "Bar Styles",
+      "elements": [
+        {
+          "id": "barColor",
+          "label": "Bar Color",
+          "type": "FILL_COLOR",
+          "defaultValue": {
+            "color": "#1E555C"
+          }
+        }
+      ]
+    }
+  ]
+}
